@@ -9,6 +9,11 @@ requirements = []
 path = 'contracts/file_registry.clar'
 clarity_version = 2
 epoch = 2.5
+
+[contracts.withdrawal_cooldown_wallet]
+path = 'contracts/withdrawal_cooldown_wallet.clar'
+clarity_version = 2
+epoch = 2.5
 [repl.analysis]
 passes = ['check_checker']
 
